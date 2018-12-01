@@ -3,5 +3,3 @@ os: linux
 script: make clean test
 
 sudo: required
-
-install: make dep
