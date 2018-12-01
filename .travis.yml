@@ -1,7 +1,9 @@
-os: linux
+sudo: required
 
-languange: c
+language: c
+
+compiler: gcc
+
+install: make dep
 
 script: make
-
-sudo: required
