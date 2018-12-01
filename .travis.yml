@@ -1,3 +1,7 @@
-language: C
+os: linux
 
-script: make
+script: make clean test
+
+sudo: required
+
+install: make dep
