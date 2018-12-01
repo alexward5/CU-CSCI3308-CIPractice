@@ -2,6 +2,6 @@ os: linux
 
 languange: c
 
-script: make clean test
+script: make
 
 sudo: required
