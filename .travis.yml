@@ -4,6 +4,6 @@ language: c
 
 compiler: gcc
 
-install: make dep
+install: make get-reps
 
 script: make
